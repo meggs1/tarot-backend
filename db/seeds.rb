@@ -18,3 +18,8 @@
 #     {name: 'Cups', description: 'Cups correspond to Hearts in a regular deck of cards. Their Greek element is water. They stand for everything emotional - what we feel, whether or not we actually live it. In the four classes of feudal society, this suit is linked to that of the clergy, since the church and religion is all about emotions. When a Cups card appears in a reading, its message is always about things of an emotional nature: Worries, delights, temptations, hopes, affections, disappointments, and so on. Events or situations that primarily affect the heart.', arcana_id: 2},
 #     {name: 'Swords', description: 'Swords correspond to Spades in a regular deck of cards. Their Greek element is fire. They stand for forceful action, power, and firm decision. In the four classes of feudal society, this suit is linked to that of the aristocracy, the warriors and rulers. When a Swords card appears in a reading, its message is about action needed or already commenced, drastic change because of necessity or circumstance, ambition, competition, defense, and other things that demand resolve and bold activity.', arcana_id: 2}
 # ])
+
+# Major Aracana Cards
+# Card.create({name: '', image: '', full_meaning: '', :upright_meaning, '', reverse_meaning: '', aracana_id: , suit_id: })
+
+# fool = Card.create({name: 'The Fool', image: '', full_meaning: '', :upright_meaning, '', reverse_meaning: '', aracana_id: , suit_id: })
