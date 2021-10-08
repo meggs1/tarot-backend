@@ -6,6 +6,8 @@ class CreateCards < ActiveRecord::Migration[6.1]
       t.text :full_meaning
       t.string :upright_meaning
       t.string :reversed_meaning
+      t.references :arcana, null: false, foreign_key: true
+      t.references :suit, null: false, foreign_key: true
 
       t.timestamps
     end

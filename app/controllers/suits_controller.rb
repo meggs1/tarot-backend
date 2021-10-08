@@ -46,6 +46,6 @@ class SuitsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def suit_params
-      params.require(:suit).permit(:name, :description, :arcana_id, :card_id)
+      params.require(:suit).permit(:name, :description, :arcana_id)
     end
 end

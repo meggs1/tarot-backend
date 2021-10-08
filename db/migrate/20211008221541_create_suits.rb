@@ -4,7 +4,6 @@ class CreateSuits < ActiveRecord::Migration[6.1]
       t.string :name
       t.text :description
       t.references :arcana, null: false, foreign_key: true
-      t.references :card, null: false, foreign_key: true
 
       t.timestamps
     end

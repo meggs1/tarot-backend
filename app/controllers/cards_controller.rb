@@ -46,6 +46,6 @@ class CardsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def card_params
-      params.require(:card).permit(:name, :image, :full_meaning, :upright_meaning, :reversed_meaning)
+      params.require(:card).permit(:name, :image, :full_meaning, :upright_meaning, :reversed_meaning, :arcana_id, :suit_id)
     end
 end
