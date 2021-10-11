@@ -20,15 +20,6 @@ Suit.create([
 ])
 
 # Major Aracana Cards
-# Card.create({
-#     name: '', 
-#     full_meaning: '', 
-#     upright_meaning: '', 
-#     reversed_meaning: '', 
-#     arcana_id: , 
-#     suit_id: 
-# })
-
 Card.create(
     name: 'The Fool', 
     full_meaning: 'Something new is starting for the Subject which could be a new relationship, job or home.   This is likely to be an exciting time for them with lots of hope and anticipation for the future.  The Subject is so caught up in the buzz of it all that they may not be thinking as clearly as they should.
@@ -300,4 +291,13 @@ Card.create({
     arcana_id: 1, 
     suit_id: 1
 }).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-world.jpeg'), filename: 'tarot-world.jpeg')
+
+# Card.create({
+#     name: '', 
+#     full_meaning: '', 
+#     upright_meaning: '', 
+#     reversed_meaning: '', 
+#     arcana_id: , 
+#     suit_id: 
+# })
 
