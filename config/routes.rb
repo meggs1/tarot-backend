@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  default_url_options :host => 'http://localhost:3000'
   resources :user_cards
   resources :users
   resources :suits
