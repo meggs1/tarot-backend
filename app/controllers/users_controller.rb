@@ -10,12 +10,13 @@ class UsersController < ApplicationController
 
   # GET /users/1
   def show
-    render json: @user
-  end
-
-  def profile
+    # render json: @user
     render json: { user: UserSerializer.new(current_user) }, status: :accepted
   end
+
+  # def profile
+  #   render json: { user: UserSerializer.new(current_user) }, status: :accepted
+  # end
 
   # POST /users
   def create
