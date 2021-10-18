@@ -1,4 +1,5 @@
 class SuitsController < ApplicationController
+  skip_before_action :authorized
   before_action :set_suit, only: [:show, :update, :destroy]
 
   # GET /suits

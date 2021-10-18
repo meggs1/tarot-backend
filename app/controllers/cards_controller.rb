@@ -1,5 +1,5 @@
 class CardsController < ApplicationController
-  # skip_before_action :authorized
+  skip_before_action :authorized
   before_action :set_card, only: [:show, :update, :destroy]
 
   # GET /cards
