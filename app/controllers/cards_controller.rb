@@ -5,7 +5,7 @@ class CardsController < ApplicationController
   # GET /cards
   def index
     @cards = Card.all
-    render json: @cards
+    render json: @cards, :except => [:created_at, :updated_at]
   end
 
   # GET /cards/1

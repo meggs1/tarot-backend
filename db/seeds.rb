@@ -301,3 +301,511 @@ Card.create({
 #     suit_id: 
 # })
 
+# Wands
+Card.create({
+    name: 'Ace of Wands', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 2
+})
+
+Card.create({
+    name: 'Two of Wands', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 2
+})
+
+Card.create({
+    name: 'Three of Wands', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 2
+})
+
+Card.create({
+    name: 'Four of Wands', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 2
+})
+
+Card.create({
+    name: 'Five of Wands', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 2
+})
+
+Card.create({
+    name: 'Six of Wands', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 2
+})
+
+Card.create({
+    name: 'Seven of Wands', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 2
+})
+
+Card.create({
+    name: 'Eigth of Wands', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 2
+})
+
+Card.create({
+    name: 'Nine of Wands', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 2
+})
+
+Card.create({
+    name: 'Ten of Wands', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 2
+})
+
+Card.create({
+    name: 'Page of Wands', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 2
+})
+
+Card.create({
+    name: 'Knight of Wands', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 2
+})
+
+Card.create({
+    name: 'Queen of Wands', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 2
+})
+
+Card.create({
+    name: 'King of Wands', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 2
+})
+
+# Pentacles
+Card.create({
+    name: 'Ace of Pentacles', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 3
+})
+
+Card.create({
+    name: 'Two of Pentacles', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 3
+})
+
+Card.create({
+    name: 'Three of Pentacles', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 3
+})
+
+Card.create({
+    name: 'Four of Pentacles', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 3
+})
+
+Card.create({
+    name: 'Five of Pentacles', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 3
+})
+
+Card.create({
+    name: 'Six of Pentacles', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 3
+})
+
+Card.create({
+    name: 'Seven of Pentacles', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 3
+})
+
+Card.create({
+    name: 'Eigth of Pentacles', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 3
+})
+
+Card.create({
+    name: 'Nine of Pentacles', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 3
+})
+
+Card.create({
+    name: 'Ten of Pentacles', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 3
+})
+
+Card.create({
+    name: 'Page of Pentacles', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 3
+})
+
+Card.create({
+    name: 'Knight of Pentacles', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 3
+})
+
+Card.create({
+    name: 'Queen of Pentacles', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 3
+})
+
+Card.create({
+    name: 'King of Pentacles', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 3
+})
+
+# Cups
+Card.create({
+    name: 'Ace of Cups', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 4
+})
+
+Card.create({
+    name: 'Two of Cups', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 4
+})
+
+Card.create({
+    name: 'Three of Cups', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 4
+})
+
+Card.create({
+    name: 'Four of Cups', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 4
+})
+
+Card.create({
+    name: 'Five of Cups', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 4
+})
+
+Card.create({
+    name: 'Six of Cups', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 4
+})
+
+Card.create({
+    name: 'Seven of Cups', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 4
+})
+
+Card.create({
+    name: 'Eigth of Cups', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 4
+})
+
+Card.create({
+    name: 'Nine of Cups', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 4
+})
+
+Card.create({
+    name: 'Ten of Cups', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 4
+})
+
+Card.create({
+    name: 'Page of Cups', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 4
+})
+
+Card.create({
+    name: 'Knight of Cups', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 4
+})
+
+Card.create({
+    name: 'Queen of Cups', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 4
+})
+
+Card.create({
+    name: 'King of Cups', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 4
+})
+
+
+# Swords
+Card.create({
+    name: 'Ace of Swords', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 5
+})
+
+Card.create({
+    name: 'Two of Swords', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 5
+})
+
+Card.create({
+    name: 'Three of Swords', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 5
+})
+
+Card.create({
+    name: 'Four of Swords', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 5
+})
+
+Card.create({
+    name: 'Five of Swords', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 5
+})
+
+Card.create({
+    name: 'Six of Swords', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 5
+})
+
+Card.create({
+    name: 'Seven of Swords', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 5
+})
+
+Card.create({
+    name: 'Eigth of Swords', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 5
+})
+
+Card.create({
+    name: 'Nine of Swords', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 5
+})
+
+Card.create({
+    name: 'Ten of Swords', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 5
+})
+
+Card.create({
+    name: 'Page of Swords', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 5
+})
+
+Card.create({
+    name: 'Knight of Swords', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 5
+})
+
+Card.create({
+    name: 'Queen of Swords', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 5
+})
+
+Card.create({
+    name: 'King of Swords', 
+    full_meaning: '', 
+    upright_meaning: '', 
+    reversed_meaning: '', 
+    arcana_id: 2, 
+    suit_id: 5
+})

@@ -6,7 +6,7 @@ class SuitsController < ApplicationController
   def index
     @suits = Suit.all
 
-    render json: @suits
+    render json: @suits, :except => [:created_at, :updated_at]
   end
 
   # GET /suits/1

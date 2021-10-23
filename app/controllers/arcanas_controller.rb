@@ -6,7 +6,7 @@ class ArcanasController < ApplicationController
   def index
     @arcanas = Arcana.all
 
-    render json: @arcanas
+    render json: @arcanas, :except => [:created_at, :updated_at]
   end
 
   # GET /arcanas/1
