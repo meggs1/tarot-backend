@@ -309,7 +309,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-01.jpeg'), filename: 'tarot-wands-01.jpeg')
 
 Card.create({
     name: 'Two of Wands', 
@@ -318,7 +318,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-02.jpeg'), filename: 'tarot-wands-02.jpeg')
 
 Card.create({
     name: 'Three of Wands', 
@@ -327,7 +327,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-03.jpeg'), filename: 'tarot-wands-03.jpeg')
 
 Card.create({
     name: 'Four of Wands', 
@@ -336,7 +336,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-04.jpeg'), filename: 'tarot-wands-04.jpeg')
 
 Card.create({
     name: 'Five of Wands', 
@@ -345,7 +345,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-05.jpeg'), filename: 'tarot-wands-05.jpeg')
 
 Card.create({
     name: 'Six of Wands', 
@@ -354,7 +354,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-06.jpeg'), filename: 'tarot-wands-06.jpeg')
 
 Card.create({
     name: 'Seven of Wands', 
@@ -363,7 +363,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-07.jpeg'), filename: 'tarot-wands-07.jpeg')
 
 Card.create({
     name: 'Eigth of Wands', 
@@ -372,7 +372,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-08.jpeg'), filename: 'tarot-wands-08.jpeg')
 
 Card.create({
     name: 'Nine of Wands', 
@@ -381,7 +381,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-09.jpeg'), filename: 'tarot-wands-09.jpeg')
 
 Card.create({
     name: 'Ten of Wands', 
@@ -390,7 +390,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-10.jpeg'), filename: 'tarot-wands-10.jpeg')
 
 Card.create({
     name: 'Page of Wands', 
@@ -399,7 +399,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-11.jpeg'), filename: 'tarot-wands-11.jpeg')
 
 Card.create({
     name: 'Knight of Wands', 
@@ -408,7 +408,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-12.jpeg'), filename: 'tarot-wands-12.jpeg')
 
 Card.create({
     name: 'Queen of Wands', 
@@ -417,7 +417,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-13.jpeg'), filename: 'tarot-wands-13.jpeg')
 
 Card.create({
     name: 'King of Wands', 
@@ -426,7 +426,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-14.jpeg'), filename: 'tarot-wands-14.jpeg')
 
 # Pentacles
 Card.create({
@@ -436,7 +436,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-01.jpeg'), filename: 'tarot-pentacles-01.jpeg')
 
 Card.create({
     name: 'Two of Pentacles', 
@@ -445,7 +445,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-02.jpeg'), filename: 'tarot-pentacles-02.jpeg')
 
 Card.create({
     name: 'Three of Pentacles', 
@@ -454,7 +454,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-03.jpeg'), filename: 'tarot-pentacles-03.jpeg')
 
 Card.create({
     name: 'Four of Pentacles', 
@@ -463,7 +463,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-04.jpeg'), filename: 'tarot-pentacles-04.jpeg')
 
 Card.create({
     name: 'Five of Pentacles', 
@@ -472,7 +472,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-05.jpeg'), filename: 'tarot-pentacles-05.jpeg')
 
 Card.create({
     name: 'Six of Pentacles', 
@@ -481,7 +481,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-06.jpeg'), filename: 'tarot-pentacles-06.jpeg')
 
 Card.create({
     name: 'Seven of Pentacles', 
@@ -490,7 +490,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-07.jpeg'), filename: 'tarot-pentacles-07.jpeg')
 
 Card.create({
     name: 'Eigth of Pentacles', 
@@ -499,7 +499,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-08.jpeg'), filename: 'tarot-pentacles-08.jpeg')
 
 Card.create({
     name: 'Nine of Pentacles', 
@@ -508,7 +508,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-09.jpeg'), filename: 'tarot-pentacles-09.jpeg')
 
 Card.create({
     name: 'Ten of Pentacles', 
@@ -517,7 +517,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-10.jpeg'), filename: 'tarot-pentacles-10.jpeg')
 
 Card.create({
     name: 'Page of Pentacles', 
@@ -526,7 +526,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-11.jpeg'), filename: 'tarot-pentacles-11.jpeg')
 
 Card.create({
     name: 'Knight of Pentacles', 
@@ -535,7 +535,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-12.jpeg'), filename: 'tarot-pentacles-12.jpeg')
 
 Card.create({
     name: 'Queen of Pentacles', 
@@ -544,7 +544,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-13.jpeg'), filename: 'tarot-pentacles-13.jpeg')
 
 Card.create({
     name: 'King of Pentacles', 
@@ -553,7 +553,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-14.jpeg'), filename: 'tarot-pentacles-14.jpeg')
 
 # Cups
 Card.create({
@@ -563,7 +563,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-01.jpeg'), filename: 'tarot-cups-01.jpeg')
 
 Card.create({
     name: 'Two of Cups', 
@@ -572,7 +572,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-02.jpeg'), filename: 'tarot-cups-02.jpeg')
 
 Card.create({
     name: 'Three of Cups', 
@@ -581,7 +581,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-03.jpeg'), filename: 'tarot-cups-03.jpeg')
 
 Card.create({
     name: 'Four of Cups', 
@@ -590,7 +590,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-04.jpeg'), filename: 'tarot-cups-04.jpeg')
 
 Card.create({
     name: 'Five of Cups', 
@@ -599,7 +599,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-05.jpeg'), filename: 'tarot-cups-05.jpeg')
 
 Card.create({
     name: 'Six of Cups', 
@@ -608,7 +608,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-06.jpeg'), filename: 'tarot-cups-06.jpeg')
 
 Card.create({
     name: 'Seven of Cups', 
@@ -617,7 +617,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-07.jpeg'), filename: 'tarot-cups-07.jpeg')
 
 Card.create({
     name: 'Eigth of Cups', 
@@ -626,7 +626,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-08.jpeg'), filename: 'tarot-cups-08.jpeg')
 
 Card.create({
     name: 'Nine of Cups', 
@@ -635,7 +635,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-09.jpeg'), filename: 'tarot-cups-09.jpeg')
 
 Card.create({
     name: 'Ten of Cups', 
@@ -644,7 +644,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-10.jpeg'), filename: 'tarot-cups-10.jpeg')
 
 Card.create({
     name: 'Page of Cups', 
@@ -653,7 +653,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-11.jpeg'), filename: 'tarot-cups-11.jpeg')
 
 Card.create({
     name: 'Knight of Cups', 
@@ -662,7 +662,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-12.jpeg'), filename: 'tarot-cups-12.jpeg')
 
 Card.create({
     name: 'Queen of Cups', 
@@ -671,7 +671,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-13.jpeg'), filename: 'tarot-cups-13.jpeg')
 
 Card.create({
     name: 'King of Cups', 
@@ -680,7 +680,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-14.jpeg'), filename: 'tarot-cups-14.jpeg')
 
 
 # Swords
@@ -691,7 +691,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-01.jpeg'), filename: 'tarot-swords-01.jpeg')
 
 Card.create({
     name: 'Two of Swords', 
@@ -700,7 +700,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-02.jpeg'), filename: 'tarot-swords-02.jpeg')
 
 Card.create({
     name: 'Three of Swords', 
@@ -709,7 +709,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-03.jpeg'), filename: 'tarot-swords-03.jpeg')
 
 Card.create({
     name: 'Four of Swords', 
@@ -718,7 +718,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-04.jpeg'), filename: 'tarot-swords-04.jpeg')
 
 Card.create({
     name: 'Five of Swords', 
@@ -727,7 +727,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-05.jpeg'), filename: 'tarot-swords-05.jpeg')
 
 Card.create({
     name: 'Six of Swords', 
@@ -736,7 +736,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-06.jpeg'), filename: 'tarot-swords-06.jpeg')
 
 Card.create({
     name: 'Seven of Swords', 
@@ -745,7 +745,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-07.jpeg'), filename: 'tarot-swords-07.jpeg')
 
 Card.create({
     name: 'Eigth of Swords', 
@@ -754,7 +754,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-08.jpeg'), filename: 'tarot-swords-08.jpeg')
 
 Card.create({
     name: 'Nine of Swords', 
@@ -763,7 +763,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-09.jpeg'), filename: 'tarot-swords-09.jpeg')
 
 Card.create({
     name: 'Ten of Swords', 
@@ -772,7 +772,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-10.jpeg'), filename: 'tarot-swords-10.jpeg')
 
 Card.create({
     name: 'Page of Swords', 
@@ -781,7 +781,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-11.jpeg'), filename: 'tarot-swords-11.jpeg')
 
 Card.create({
     name: 'Knight of Swords', 
@@ -790,7 +790,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-12.jpeg'), filename: 'tarot-swords-12.jpeg')
 
 Card.create({
     name: 'Queen of Swords', 
@@ -799,7 +799,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-13.jpeg'), filename: 'tarot-swords-13.jpeg')
 
 Card.create({
     name: 'King of Swords', 
@@ -808,4 +808,4 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-})
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-14.jpeg'), filename: 'tarot-swords-14.jpeg')
