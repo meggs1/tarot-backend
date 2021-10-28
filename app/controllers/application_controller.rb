@@ -34,6 +34,12 @@ class ApplicationController < ActionController::API
     !!current_user
   end
 
+  def check_admin
+    unless (!!current_user && is_admin == true)
+      render json: { message: 'Only admins can view this page.' }, status: :unauthorized
+    end
+  end
+
   def authorized
     render json: { message: 'Please log in' }, status: :unauthorized unless logged_in?
   end

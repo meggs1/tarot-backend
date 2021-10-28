@@ -1,6 +1,7 @@
 class CardsController < ApplicationController
   skip_before_action :authorized
   before_action :set_card, only: [:show, :update, :destroy]
+  before_action :check_admin, only: [:update]
 
   # GET /cards
   def index
