@@ -1,12 +1,11 @@
 class CardsController < ApplicationController
   skip_before_action :authorized
   before_action :set_card, only: [:show, :update, :destroy]
-  before_action :check_admin, only: [:update]
 
   # GET /cards
   def index
     @cards = Card.all
-    render json: @cards, :except => [:created_at, :updated_at]
+    render json: @cards.order('id ASC'), :except => [:created_at, :updated_at]
   end
 
   # GET /cards/1

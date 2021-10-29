@@ -1,5 +1,5 @@
 class AuthController < ApplicationController
-    skip_before_action :authorized, only: [:create]
+    skip_before_action :authorized, only: [:create, :check_auth]
   
     def create
       @user = User.find_by(username: user_login_params[:username])
@@ -12,6 +12,14 @@ class AuthController < ApplicationController
         render json: { message: 'Invalid username or password' }, status: :unauthorized
       end
     end
+
+  def check_auth
+    if current_user
+      render json: current_user, status: :ok
+    else
+      render json: {errors: "No User Logged In"}
+    end
+  end
 
     private
   
