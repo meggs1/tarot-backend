@@ -1,5 +1,5 @@
 class AuthController < ApplicationController
-    skip_before_action :authorized, only: [:create, :check_auth]
+    skip_before_action :authorized, only: [:create]
   
     def create
       @user = User.find_by(username: user_login_params[:username])
@@ -21,9 +21,23 @@ class AuthController < ApplicationController
     end
   end
 
-    private
-  
-    def user_login_params
-      params.require(:user).permit(:username, :password)
+  def logout
+    if current_user
+      render json: {
+        status: 200,
+        message: "logged out successfully"
+      }, status: :ok
+    else
+      render json: {
+        status: 401,
+        message: "Couldn't find an active session."
+      }, status: :unauthorized
     end
   end
+
+  private
+  
+  def user_login_params
+    params.require(:user).permit(:username, :password)
+  end
+end
