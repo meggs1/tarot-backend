@@ -1,9 +1,7 @@
 Rails.application.routes.draw do
   default_url_options :host => 'http://localhost:3000'
-  resources :user_cards
   resources :suits
   resources :cards
-  resources :arcanas
   resources :users, only: [:create, :show, :update]
 
   post '/login', to: 'auth#create'
