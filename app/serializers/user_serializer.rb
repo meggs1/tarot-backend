@@ -1,3 +1,3 @@
 class UserSerializer < ActiveModel::Serializer
-  attributes :id, :name, :username, :card_ids, :is_admin
+  attributes :id, :name, :username, :is_admin
 end
