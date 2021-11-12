@@ -132,6 +132,9 @@ GEM
       mime-types
       mimemagic (~> 0.3.0)
       terrapin (~> 0.6.0)
+    paperclip-aws (1.6.8)
+      aws-sdk (>= 1.2.0)
+      paperclip (>= 2.5.0)
     pg (1.2.3)
     puma (5.5.2)
       nio4r (~> 2.0)
@@ -206,7 +209,7 @@ DEPENDENCIES
   image_processing (~> 1.2)
   jwt
   listen (~> 3.3)
-  paperclip
+  paperclip-aws (~> 1.6, >= 1.6.8)
   pg (~> 1.1)
   puma (~> 5.0)
   rack-cors
