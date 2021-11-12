@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.6.8'
 
 gem 'paperclip-aws', '~> 1.6', '>= 1.6.8'
-gem 'aws-sdk', '~> 2.3'
+gem 'aws-sdk-v1'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
