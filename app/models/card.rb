@@ -12,5 +12,10 @@ class Card < ApplicationRecord
     def image_url
         url_for(self.image_file)
     end
+
+    # def picture_from_url(url)
+    #     self.avatar = open(url)
+    #   end
+    
 end
  
