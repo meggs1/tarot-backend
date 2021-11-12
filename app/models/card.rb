@@ -10,7 +10,7 @@ class Card < ApplicationRecord
     has_attached_file :avatar
 
     def image_url
-        url_for(self.image_file)
+        self.avatar.url
     end
 
     # def picture_from_url(url)
