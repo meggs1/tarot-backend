@@ -1,3 +1,5 @@
+require "open-uri"
+
 class Card < ApplicationRecord
     include Rails.application.routes.url_helpers 
     belongs_to :suit
