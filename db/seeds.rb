@@ -21,6 +21,7 @@ Suit.create([
 
 # Major Aracana Cards
 
+
 Card.create(
     name: 'The Fool', 
     full_meaning: 'Something new is starting for the Subject which could be a new relationship, job or home.   This is likely to be an exciting time for them with lots of hope and anticipation for the future.  The Subject is so caught up in the buzz of it all that they may not be thinking as clearly as they should.
