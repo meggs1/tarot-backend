@@ -7,12 +7,12 @@ local:
   root: <%= Rails.root.join("storage") %>
 
 # Use rails credentials:edit to set the AWS secrets (as aws:access_key_id|secret_access_key)
-# amazon:
-#   service: S3
-#   access_key_id: 'AKIA3NK3ZMC365CBDSFT'
-#   secret_access_key: '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'
-#   region: 'us-east-1'
-#   bucket: 'tarotproject'
+amazon:
+  service: S3
+  access_key_id: 'AKIA3NK3ZMC365CBDSFT'
+  secret_access_key: 'mxoMNIr7/2PY9uEZ9/Ga3eLrWckkpJSLWKMdfumZ'
+  region: 'us-east-1'
+  bucket: 'tarotproject'
 
 # Remember not to checkin your GCS keyfile to a repository
 # google:
