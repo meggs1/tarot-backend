@@ -20,7 +20,6 @@ Suit.create([
 ])
 
 # Major Aracana Cards
-require 'open-uri'
 
 
 Card.create(
@@ -33,7 +32,7 @@ Card.create(
      A reversed Fool card can show that you are living in the moment and not planning for the future. The reversed Fool meaning serves as caution that you should be more aware so as not to be taken advantage of. Like the dog in the Rider Waite version, this card is here to alert you on anything that may sound too good to be true.', 
     arcana_id: 1, 
     suit_id: 1
-).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-fool.jpeg'), filename: 'tarot-fool.jpeg')
+).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-fool.jpeg'), filename: 'tarot-fool.jpeg')
 
 Card.create({
     name: 'The Magician', 
@@ -45,7 +44,7 @@ Card.create({
      Consider whether this reversed the magician is in your circle, or perhaps might also represent your current state of emotions. It may mean you may become obsessed with power and that might lead to wrong, reckless decisions that will lead to your eventual downfall.', 
     arcana_id: 1, 
     suit_id: 1
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-magician.jpeg'), filename: 'tarot-magician.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-magician.jpeg'), filename: 'tarot-magician.jpeg')
 
 
 Card.create({
@@ -57,7 +56,7 @@ Card.create({
     reversed_meaning: 'When it comes to the High Priestess reversed, it can mean that you are finding it difficult to listen to your intuition. It is time for you to meditate and try new approach, for at this moment, the rational approach will not work. Something has been telling you to follow your gut, but you may be ignoring the call. There is a lot of confusion around you, and your actions may feel contrary to what you know is right. You must never be afraid to ask questions of yourself that may illuminate a new path forward for you, one that is more authentic to your inner self and your individual values.', 
     arcana_id: 1, 
     suit_id: 1 
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-highpriestess.jpeg'), filename: 'tarot-highpriestess.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-highpriestess.jpeg'), filename: 'tarot-highpriestess.jpeg')
 
 Card.create({
     name: 'The Empress', 
@@ -68,7 +67,7 @@ Card.create({
      In a role reversal, perhaps a reversed Empress is finding her way into your life; it could also mean that you are relying on others to take care of you, and make decisions for you. You need to work towards removing this influence on your life, and build confidence in your own actions. Always try as much as you can to ensure that you solve matters on your own.', 
     arcana_id: 1, 
     suit_id: 1
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-empress.jpeg'), filename: 'tarot-empress.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-empress.jpeg'), filename: 'tarot-empress.jpeg')
 
 Card.create({
     name: 'The Emperor', 
@@ -81,7 +80,7 @@ Card.create({
      Lack of self-control and inability to handle situations can be represented by the Emperor on a personal level. When he is reversed, the structures, rules and systems that he creates are no longer working. His desire to inspire higher principles in his kingdom have turned to ruthlessness, tyranny and rigidity. He seeks to dominate, forgetting his call from the crown to do what is best for his people, fearing only for his loss of control and thus creating suffering.', 
     arcana_id: 1, 
     suit_id: 1
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-emperor.jpeg'), filename: 'tarot-emperor.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-emperor.jpeg'), filename: 'tarot-emperor.jpeg')
 
 Card.create({
     name: 'The Hierophant', 
@@ -93,7 +92,7 @@ Card.create({
      The Hierophant reversal meaning is mostly about questioning certain traditions and making sure that whatever it is that you do is the right thing for you in this certain moment.', 
     arcana_id: 1, 
     suit_id: 1
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-hierophant.jpeg'), filename: 'tarot-hierophant.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-hierophant.jpeg'), filename: 'tarot-hierophant.jpeg')
 
 Card.create({
     name: 'The Lovers', 
@@ -106,7 +105,7 @@ Card.create({
      The Lovers reversed can also indicate that you have been avoiding responsibility for your actions. You could have made a decision that was based on your desire for immediate gratification but are now blaming others for the consequences that are catching up to you. So, you need to make amends or let go of the past and make better decisions in the future.', 
     arcana_id: 1, 
     suit_id: 1
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-lovers.jpeg'), filename: 'tarot-lovers.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-lovers.jpeg'), filename: 'tarot-lovers.jpeg')
 
 Card.create({
     name: 'The Chariot', 
@@ -120,7 +119,7 @@ Card.create({
     The Chariot reversal meaning can also be an indication of lack of control and direction over your life. You are at the mercy of the opposing forces and the obstacles, and cannot seem to muster the strength to take over. You are taking everything lying down, and life is dragging in any direction that it pleases. It should serve as a wakeup call and reminder that you will need to tighten some loose ends and take charge of your destiny.', 
     arcana_id: 1, 
     suit_id: 1
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-chariot.jpeg'), filename: 'tarot-chariot.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-chariot.jpeg'), filename: 'tarot-chariot.jpeg')
 
 Card.create({
     name: 'Strength', 
@@ -134,7 +133,7 @@ Card.create({
      One might end up being withdrawn from society because of the unhappiness or depression since they may feel people are the reason why they are so sad. It can also be a sign of jealousy, especially when everyone seems to be happy or excelling in every aspect of life while you are stagnating. This card indicates that you must learn to gain confidence in order to re-harness your inner strength.', 
     arcana_id: 1, 
     suit_id: 1
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-strength.jpeg'), filename: 'tarot-strength.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-strength.jpeg'), filename: 'tarot-strength.jpeg')
 
 Card.create({
     name: 'The Hermit', 
@@ -146,7 +145,7 @@ Card.create({
      When it comes to work, the hermit reversal meaning refers to your preparedness to get to the bottom of something that has been troubling you for quite some time now. There is searching to be done, and it will be your responsibility to ask the question that will allow the other people to understand the circumstances.', 
     arcana_id: 1, 
     suit_id: 1
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-hermit.jpeg'), filename: 'tarot-hermit.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-hermit.jpeg'), filename: 'tarot-hermit.jpeg')
 
 Card.create({
     name: 'The Wheel of Fortune', 
@@ -158,7 +157,7 @@ Card.create({
      What you should not do however, is cling to the illusion of control. Perhaps in this turn of the wheel, the lesson is to learn to let go and release. There are things that cannot be moved by human will and action alone. When we do not let go, it can bring only more suffering, for you may blame yourself for actions that could not have altered the situation. When we learn to accept, we also learn to forgive ourselves. We learn to move on, and move forward - and eventually, we learn that this feeling of acceptance can push the wheel again forward, and move it towards a new cycle.', 
     arcana_id: 1, 
     suit_id: 1
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-wheeloffortune.jpeg'), filename: 'tarot-wheeloffortune.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wheeloffortune.jpeg'), filename: 'tarot-wheeloffortune.jpeg')
 
 Card.create({
     name: 'Justice', 
@@ -168,7 +167,7 @@ Card.create({
     reversed_meaning: 'A reversed Justice tarot card could indicate various things. One Justice reversal meaning is to show you are living in denial. You are not willing to accept the consequences of your actions or others. You are running from your guilt. You must however, be aware that these are actions that are in the past. Your future depends on your actions today - and what you will do to tip the scales in balance again. How can you make up for your wrongs? Taking action gives you a chance to change and stop judging yourself. In legal matters, this could represent an unfair outcome of a case that you will not accept.', 
     arcana_id: 1, 
     suit_id: 1
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-justice.jpeg'), filename: 'tarot-justice.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-justice.jpeg'), filename: 'tarot-justice.jpeg')
 
 Card.create({
     name: 'The Hanged Man', 
@@ -178,7 +177,7 @@ Card.create({
     reversed_meaning: 'The reversal meaning of the Hanged Man card represents a very specific period of time during which you feel as if you are sacrificing a significant amount of time while getting nothing in return. You might have felt as if certain things are at a state of an absolute standstill without any particular resolution or movement. It’s as if you are putting your entire effort and attention into something but nothing turns out as it should.', 
     arcana_id: 1, 
     suit_id: 1
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-hangedman.jpeg'), filename: 'tarot-hangedman.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-hangedman.jpeg'), filename: 'tarot-hangedman.jpeg')
 
 Card.create({
     name: 'Death', 
@@ -191,7 +190,7 @@ Card.create({
     reversed_meaning: 'The Death reversal meaning is still about change, but that you have been resisting it. You could be worried about letting go of the past, or you could not be sure of the changes that you need to make to go forward. Resisting the change and holding onto the past can limit your future, which can cause you to feel like you are in limbo. You should take some time to assess the ways that you have been approaching changes in your life. You may find you have been halting the changes that you need due to fears of the unknown. While you can still be afraid, you should trust that you are taking the right steps and move forward. Life moves on, so fighting passing time is only going to leave you with regrets. Death does not have to be a card of regret, especially if you heed its warning.', 
     arcana_id: 1, 
     suit_id: 1
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-death.jpeg'), filename: 'tarot-death.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-death.jpeg'), filename: 'tarot-death.jpeg')
 
 Card.create({
     name: 'Temperance', 
@@ -204,7 +203,7 @@ Card.create({
      Lack of a long-term plan or vision may also be the Temperance reversal meaning. This creates a lack of purpose for you, leaving you feeling lopsided as you search here and there for what you should be doing. You must reflect and think carefully about what needs to change. Temperance reminds us that all things are only good in moderation, and that we must examine in which aspects of our lives we are breaking the balance.', 
     arcana_id: 1, 
     suit_id: 1
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-temperance.jpeg'), filename: 'tarot-temperance.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-temperance.jpeg'), filename: 'tarot-temperance.jpeg')
 
 Card.create({
     name: 'The Devil', 
@@ -219,7 +218,7 @@ Card.create({
      Self-assessment is called for in this case and the individual needs to take some time and list all of the things that they need to get rid of. And once that has been done, and then it would be time for them to embark on the difficult journey of self-improvement.', 
     arcana_id: 1, 
     suit_id: 1
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-devil.jpeg'), filename: 'tarot-devil.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-devil.jpeg'), filename: 'tarot-devil.jpeg')
 
 Card.create({
     name: 'The Tower', 
@@ -232,7 +231,7 @@ Card.create({
      What you relied on will no longer be there for you. Do not take this as a drastic and depressing change, it is time for you to become more self-reliant. ', 
     arcana_id: 1, 
     suit_id: 1
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-tower.jpeg'), filename: 'tarot-tower.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-tower.jpeg'), filename: 'tarot-tower.jpeg')
 
 Card.create({
     name: 'The Star', 
@@ -243,7 +242,7 @@ Card.create({
      Without hope, without faith, we cannot find the motivation to progress forward in the challenges that we face. Where in your life are you feeling hopeless? In what ways do you already feel defeated? And how does that affect your actions? The star reversed asks us to nurture our sense of hope and positive energy to help propel our actions with joy instead of fear.', 
     arcana_id: 1, 
     suit_id: 1
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-star.jpeg'), filename: 'tarot-star.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-star.jpeg'), filename: 'tarot-star.jpeg')
 
 Card.create({
     name: 'The Moon', 
@@ -257,7 +256,7 @@ Card.create({
      Another reversed moon meaning is that the forces of the night that are bringing you confusion are starting to dissipate. You have started managing your fears and anxiety. Whatever negative energies you have been facing are slowly fading away. It presents a liberating experience as you discover the positive side of things.', 
     arcana_id: 1, 
     suit_id: 1
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-moon.jpeg'), filename: 'tarot-moon.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-moon.jpeg'), filename: 'tarot-moon.jpeg')
 
 Card.create({
     name: 'The Sun', 
@@ -269,7 +268,7 @@ Card.create({
      On the other hand, the Sun reversed might be indicative that you are being unrealistic. It might be a sign that you have an overly optimistic perception of certain situations. These are things that you need to take into account in order to ensure that you are on the right track and your successes continue as they do.', 
     arcana_id: 1, 
     suit_id: 1
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-sun.jpeg'), filename: 'tarot-sun.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-sun.jpeg'), filename: 'tarot-sun.jpeg')
 
 Card.create({
     name: 'Judgement', 
@@ -281,7 +280,7 @@ Card.create({
      Another reading of the Judgement reversal card can be a push to take time out of your busy routine to reflect upon your life to this point, and what you have learned so far. You are most likely not giving yourself the time or space to fully think about the matter and learn the lessons you need to to be able to progress with awareness. You could also be too critical of your past actions, so you are not giving yourself the forgiveness to move forward. The mistakes that we have made in the past are learning tools, so they help us move though life. Focusing too hard on these mistakes can cause us to trip and fall.', 
     arcana_id: 1, 
     suit_id: 1
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-judgement.jpeg'), filename: 'tarot-judgement.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-judgement.jpeg'), filename: 'tarot-judgement.jpeg')
 
 Card.create({
     name: 'The World', 
@@ -293,7 +292,7 @@ Card.create({
     reversed_meaning: 'You are drawing near to something that marks the end of a journey or an era. You may have many accomplishments that have lined your path, but there is a strange emptiness that fills you when you look backwards upon it, as if you have all the pieces but they are not coming together. What is missing? Do you feel connected to what you are doing? Do you feel connected to others? What alienates you from feeling complete? From feeling whole?', 
     arcana_id: 1, 
     suit_id: 1
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-world.jpeg'), filename: 'tarot-world.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-world.jpeg'), filename: 'tarot-world.jpeg')
 
 # Card.create({
 #     name: '', 
@@ -312,7 +311,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-wands-01.jpeg'), filename: 'tarot-wands-01.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-01.jpeg'), filename: 'tarot-wands-01.jpeg')
 
 Card.create({
     name: 'Two of Wands', 
@@ -321,7 +320,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-wands-02.jpeg'), filename: 'tarot-wands-02.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-02.jpeg'), filename: 'tarot-wands-02.jpeg')
 
 Card.create({
     name: 'Three of Wands', 
@@ -330,7 +329,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-wands-03.jpeg'), filename: 'tarot-wands-03.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-03.jpeg'), filename: 'tarot-wands-03.jpeg')
 
 Card.create({
     name: 'Four of Wands', 
@@ -339,7 +338,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-wands-04.jpeg'), filename: 'tarot-wands-04.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-04.jpeg'), filename: 'tarot-wands-04.jpeg')
 
 Card.create({
     name: 'Five of Wands', 
@@ -348,7 +347,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-wands-05.jpeg'), filename: 'tarot-wands-05.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-05.jpeg'), filename: 'tarot-wands-05.jpeg')
 
 Card.create({
     name: 'Six of Wands', 
@@ -357,7 +356,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-wands-06.jpeg'), filename: 'tarot-wands-06.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-06.jpeg'), filename: 'tarot-wands-06.jpeg')
 
 Card.create({
     name: 'Seven of Wands', 
@@ -366,16 +365,16 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-wands-07.jpeg'), filename: 'tarot-wands-07.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-07.jpeg'), filename: 'tarot-wands-07.jpeg')
 
 Card.create({
-    name: 'Eight of Wands', 
+    name: 'Eigth of Wands', 
     full_meaning: '', 
     upright_meaning: '', 
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-wands-08.jpeg'), filename: 'tarot-wands-08.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-08.jpeg'), filename: 'tarot-wands-08.jpeg')
 
 Card.create({
     name: 'Nine of Wands', 
@@ -384,7 +383,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-wands-09.jpeg'), filename: 'tarot-wands-09.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-09.jpeg'), filename: 'tarot-wands-09.jpeg')
 
 Card.create({
     name: 'Ten of Wands', 
@@ -393,7 +392,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-wands-10.jpeg'), filename: 'tarot-wands-10.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-10.jpeg'), filename: 'tarot-wands-10.jpeg')
 
 Card.create({
     name: 'Page of Wands', 
@@ -402,7 +401,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-wands-11.jpeg'), filename: 'tarot-wands-11.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-11.jpeg'), filename: 'tarot-wands-11.jpeg')
 
 Card.create({
     name: 'Knight of Wands', 
@@ -411,7 +410,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-wands-12.jpeg'), filename: 'tarot-wands-12.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-12.jpeg'), filename: 'tarot-wands-12.jpeg')
 
 Card.create({
     name: 'Queen of Wands', 
@@ -420,7 +419,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-wands-13.jpeg'), filename: 'tarot-wands-13.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-13.jpeg'), filename: 'tarot-wands-13.jpeg')
 
 Card.create({
     name: 'King of Wands', 
@@ -429,7 +428,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 2
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-wands-14.jpeg'), filename: 'tarot-wands-14.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-14.jpeg'), filename: 'tarot-wands-14.jpeg')
 
 # Pentacles
 Card.create({
@@ -439,7 +438,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-pentacles-01.jpeg'), filename: 'tarot-pentacles-01.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-01.jpeg'), filename: 'tarot-pentacles-01.jpeg')
 
 Card.create({
     name: 'Two of Pentacles', 
@@ -448,7 +447,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-pentacles-02.jpeg'), filename: 'tarot-pentacles-02.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-02.jpeg'), filename: 'tarot-pentacles-02.jpeg')
 
 Card.create({
     name: 'Three of Pentacles', 
@@ -457,7 +456,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-pentacles-03.jpeg'), filename: 'tarot-pentacles-03.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-03.jpeg'), filename: 'tarot-pentacles-03.jpeg')
 
 Card.create({
     name: 'Four of Pentacles', 
@@ -466,7 +465,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-pentacles-04.jpeg'), filename: 'tarot-pentacles-04.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-04.jpeg'), filename: 'tarot-pentacles-04.jpeg')
 
 Card.create({
     name: 'Five of Pentacles', 
@@ -475,7 +474,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-pentacles-05.jpeg'), filename: 'tarot-pentacles-05.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-05.jpeg'), filename: 'tarot-pentacles-05.jpeg')
 
 Card.create({
     name: 'Six of Pentacles', 
@@ -484,7 +483,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-pentacles-06.jpeg'), filename: 'tarot-pentacles-06.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-06.jpeg'), filename: 'tarot-pentacles-06.jpeg')
 
 Card.create({
     name: 'Seven of Pentacles', 
@@ -493,16 +492,16 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-pentacles-07.jpeg'), filename: 'tarot-pentacles-07.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-07.jpeg'), filename: 'tarot-pentacles-07.jpeg')
 
 Card.create({
-    name: 'Eight of Pentacles', 
+    name: 'Eigth of Pentacles', 
     full_meaning: '', 
     upright_meaning: '', 
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-pentacles-08.jpeg'), filename: 'tarot-pentacles-08.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-08.jpeg'), filename: 'tarot-pentacles-08.jpeg')
 
 Card.create({
     name: 'Nine of Pentacles', 
@@ -511,7 +510,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-pentacles-09.jpeg'), filename: 'tarot-pentacles-09.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-09.jpeg'), filename: 'tarot-pentacles-09.jpeg')
 
 Card.create({
     name: 'Ten of Pentacles', 
@@ -520,7 +519,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-pentacles-10.jpeg'), filename: 'tarot-pentacles-10.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-10.jpeg'), filename: 'tarot-pentacles-10.jpeg')
 
 Card.create({
     name: 'Page of Pentacles', 
@@ -529,7 +528,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-pentacles-11.jpeg'), filename: 'tarot-pentacles-11.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-11.jpeg'), filename: 'tarot-pentacles-11.jpeg')
 
 Card.create({
     name: 'Knight of Pentacles', 
@@ -538,7 +537,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-pentacles-12.jpeg'), filename: 'tarot-pentacles-12.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-12.jpeg'), filename: 'tarot-pentacles-12.jpeg')
 
 Card.create({
     name: 'Queen of Pentacles', 
@@ -547,7 +546,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-pentacles-13.jpeg'), filename: 'tarot-pentacles-13.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-13.jpeg'), filename: 'tarot-pentacles-13.jpeg')
 
 Card.create({
     name: 'King of Pentacles', 
@@ -556,7 +555,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 3
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-pentacles-14.jpeg'), filename: 'tarot-pentacles-14.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-14.jpeg'), filename: 'tarot-pentacles-14.jpeg')
 
 # Cups
 Card.create({
@@ -566,7 +565,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-cups-01.jpeg'), filename: 'tarot-cups-01.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-01.jpeg'), filename: 'tarot-cups-01.jpeg')
 
 Card.create({
     name: 'Two of Cups', 
@@ -575,7 +574,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-cups-02.jpeg'), filename: 'tarot-cups-02.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-02.jpeg'), filename: 'tarot-cups-02.jpeg')
 
 Card.create({
     name: 'Three of Cups', 
@@ -584,7 +583,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-cups-03.jpeg'), filename: 'tarot-cups-03.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-03.jpeg'), filename: 'tarot-cups-03.jpeg')
 
 Card.create({
     name: 'Four of Cups', 
@@ -593,7 +592,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-cups-04.jpeg'), filename: 'tarot-cups-04.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-04.jpeg'), filename: 'tarot-cups-04.jpeg')
 
 Card.create({
     name: 'Five of Cups', 
@@ -602,7 +601,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-cups-05.jpeg'), filename: 'tarot-cups-05.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-05.jpeg'), filename: 'tarot-cups-05.jpeg')
 
 Card.create({
     name: 'Six of Cups', 
@@ -611,7 +610,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-cups-06.jpeg'), filename: 'tarot-cups-06.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-06.jpeg'), filename: 'tarot-cups-06.jpeg')
 
 Card.create({
     name: 'Seven of Cups', 
@@ -620,16 +619,16 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-cups-07.jpeg'), filename: 'tarot-cups-07.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-07.jpeg'), filename: 'tarot-cups-07.jpeg')
 
 Card.create({
-    name: 'Eight of Cups', 
+    name: 'Eigth of Cups', 
     full_meaning: '', 
     upright_meaning: '', 
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-cups-08.jpeg'), filename: 'tarot-cups-08.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-08.jpeg'), filename: 'tarot-cups-08.jpeg')
 
 Card.create({
     name: 'Nine of Cups', 
@@ -638,7 +637,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-cups-09.jpeg'), filename: 'tarot-cups-09.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-09.jpeg'), filename: 'tarot-cups-09.jpeg')
 
 Card.create({
     name: 'Ten of Cups', 
@@ -647,7 +646,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-cups-10.jpeg'), filename: 'tarot-cups-10.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-10.jpeg'), filename: 'tarot-cups-10.jpeg')
 
 Card.create({
     name: 'Page of Cups', 
@@ -656,7 +655,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-cups-11.jpeg'), filename: 'tarot-cups-11.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-11.jpeg'), filename: 'tarot-cups-11.jpeg')
 
 Card.create({
     name: 'Knight of Cups', 
@@ -665,7 +664,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-cups-12.jpeg'), filename: 'tarot-cups-12.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-12.jpeg'), filename: 'tarot-cups-12.jpeg')
 
 Card.create({
     name: 'Queen of Cups', 
@@ -674,7 +673,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-cups-13.jpeg'), filename: 'tarot-cups-13.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-13.jpeg'), filename: 'tarot-cups-13.jpeg')
 
 Card.create({
     name: 'King of Cups', 
@@ -683,7 +682,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 4
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-cups-14.jpeg'), filename: 'tarot-cups-14.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-14.jpeg'), filename: 'tarot-cups-14.jpeg')
 
 
 # Swords
@@ -694,7 +693,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-swords-01.jpeg'), filename: 'tarot-swords-01.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-01.jpeg'), filename: 'tarot-swords-01.jpeg')
 
 Card.create({
     name: 'Two of Swords', 
@@ -703,7 +702,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-swords-02.jpeg'), filename: 'tarot-swords-02.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-02.jpeg'), filename: 'tarot-swords-02.jpeg')
 
 Card.create({
     name: 'Three of Swords', 
@@ -712,7 +711,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-swords-03.jpeg'), filename: 'tarot-swords-03.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-03.jpeg'), filename: 'tarot-swords-03.jpeg')
 
 Card.create({
     name: 'Four of Swords', 
@@ -721,7 +720,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-swords-04.jpeg'), filename: 'tarot-swords-04.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-04.jpeg'), filename: 'tarot-swords-04.jpeg')
 
 Card.create({
     name: 'Five of Swords', 
@@ -730,7 +729,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-swords-05.jpeg'), filename: 'tarot-swords-05.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-05.jpeg'), filename: 'tarot-swords-05.jpeg')
 
 Card.create({
     name: 'Six of Swords', 
@@ -739,7 +738,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-swords-06.jpeg'), filename: 'tarot-swords-06.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-06.jpeg'), filename: 'tarot-swords-06.jpeg')
 
 Card.create({
     name: 'Seven of Swords', 
@@ -748,16 +747,16 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-swords-07.jpeg'), filename: 'tarot-swords-07.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-07.jpeg'), filename: 'tarot-swords-07.jpeg')
 
 Card.create({
-    name: 'Eight of Swords', 
+    name: 'Eigth of Swords', 
     full_meaning: '', 
     upright_meaning: '', 
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-swords-08.jpeg'), filename: 'tarot-swords-08.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-08.jpeg'), filename: 'tarot-swords-08.jpeg')
 
 Card.create({
     name: 'Nine of Swords', 
@@ -766,7 +765,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-swords-09.jpeg'), filename: 'tarot-swords-09.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-09.jpeg'), filename: 'tarot-swords-09.jpeg')
 
 Card.create({
     name: 'Ten of Swords', 
@@ -775,7 +774,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-swords-10.jpeg'), filename: 'tarot-swords-10.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-10.jpeg'), filename: 'tarot-swords-10.jpeg')
 
 Card.create({
     name: 'Page of Swords', 
@@ -784,7 +783,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-swords-11.jpeg'), filename: 'tarot-swords-11.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-11.jpeg'), filename: 'tarot-swords-11.jpeg')
 
 Card.create({
     name: 'Knight of Swords', 
@@ -793,7 +792,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-swords-12.jpeg'), filename: 'tarot-swords-12.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-12.jpeg'), filename: 'tarot-swords-12.jpeg')
 
 Card.create({
     name: 'Queen of Swords', 
@@ -802,7 +801,7 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-swords-13.jpeg'), filename: 'tarot-swords-13.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-13.jpeg'), filename: 'tarot-swords-13.jpeg')
 
 Card.create({
     name: 'King of Swords', 
@@ -811,6 +810,6 @@ Card.create({
     reversed_meaning: '', 
     arcana_id: 2, 
     suit_id: 5
-}).image_file.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-swords-14.jpeg'), filename: 'tarot-swords-14.jpeg')
+}).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-14.jpeg'), filename: 'tarot-swords-14.jpeg')
 
 admin = User.create(name: 'Megan', username: 'megan', password_digest: BCrypt::Password.create('password'), is_admin: true)
