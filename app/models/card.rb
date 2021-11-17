@@ -10,15 +10,13 @@ class Card < ApplicationRecord
 
     has_attached_file :avatar
 
-    def image_url
-        self.image_file.io
-    end
+
 
     validates_attachment_content_type :avatar, :content_type => ["image/jpg", "image/jpeg", "image/png", "image/gif"]
 
-    # def picture_from_url(url)
-    #     self.picture = URI.parse(url)
-    # end
+    def avatar_url
+        URI.parse('https://tarotproject.s3.us-east-2.amazonaws.com/' + self.image_file.filename.to_s)
+    end
     
 end
  
