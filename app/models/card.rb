@@ -11,14 +11,14 @@ class Card < ApplicationRecord
     has_attached_file :avatar
 
     def image_url
-        self.image_file.url
+        url_for(self.image_file)
     end
 
-    # def avatar_from_url(url)
-    #     self.avatar = URI.parse(url).open
-    # end
-
     validates_attachment_content_type :avatar, :content_type => ["image/jpg", "image/jpeg", "image/png", "image/gif"]
+
+    # def picture_from_url(url)
+    #     self.picture = URI.parse(url)
+    # end
     
 end
  

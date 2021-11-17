@@ -7,7 +7,7 @@ class CardSerializer < ActiveModel::Serializer
     return unless object.image_file.attached?
     object.image_file.blob.attributes
       .slice('filename')
-      .merge(url: object.image_url)
+      .merge(url: image_file.io)
   end
 
 end
