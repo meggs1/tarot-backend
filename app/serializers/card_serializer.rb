@@ -4,7 +4,7 @@ class CardSerializer < ActiveModel::Serializer
   belongs_to :suit
 
   def image_url
-    debugger
+    byebug
     return unless object.image_file.attached?
     object.image_file.blob.attributes
       .slice('filename')
