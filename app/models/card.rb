@@ -9,13 +9,13 @@ class Card < ApplicationRecord
 
     has_attached_file :avatar
 
-    # def image_url
-    #     url_for(self.image_file)
-    # end
+    def image_url
+        url_for(self.image_file)
+    end
 
     # def picture_from_url(url)
-    #     self.avatar = open(url)
-    #   end
+    #     self.picture = URI.parse(url)
+    # end
     
 end
  
