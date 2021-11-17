@@ -367,7 +367,7 @@ Card.create({
 }).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-wands-07.jpeg'), filename: 'tarot-wands-07.jpeg')
 
 Card.create({
-    name: 'Eigth of Wands', 
+    name: 'Eight of Wands', 
     full_meaning: '', 
     upright_meaning: '', 
     reversed_meaning: '', 
@@ -494,7 +494,7 @@ Card.create({
 }).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-pentacles-07.jpeg'), filename: 'tarot-pentacles-07.jpeg')
 
 Card.create({
-    name: 'Eigth of Pentacles', 
+    name: 'Eight of Pentacles', 
     full_meaning: '', 
     upright_meaning: '', 
     reversed_meaning: '', 
@@ -621,7 +621,7 @@ Card.create({
 }).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-cups-07.jpeg'), filename: 'tarot-cups-07.jpeg')
 
 Card.create({
-    name: 'Eigth of Cups', 
+    name: 'Eight of Cups', 
     full_meaning: '', 
     upright_meaning: '', 
     reversed_meaning: '', 
@@ -749,7 +749,7 @@ Card.create({
 }).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-07.jpeg'), filename: 'tarot-swords-07.jpeg')
 
 Card.create({
-    name: 'Eigth of Swords', 
+    name: 'Eight of Swords', 
     full_meaning: '', 
     upright_meaning: '', 
     reversed_meaning: '', 
