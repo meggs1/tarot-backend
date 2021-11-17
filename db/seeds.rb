@@ -811,4 +811,4 @@ Card.create({
     suit_id: 5
 }).image_file.attach(io: File.open('app/assets/images/seed_images/tarot-swords-14.jpeg'), filename: 'tarot-swords-14.jpeg')
 
-admin = User.create(name: 'Megan', username: 'megan', password_digest: BCrypt::Password.create('password'), is_admin: true)
+admin = User.create(name: 'Megan', username: 'megan', password_digest: BCrypt::Password.create(ENV['ADMIN_PASSWORD']), is_admin: true)
