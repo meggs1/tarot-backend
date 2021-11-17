@@ -8,7 +8,7 @@ class Card < ApplicationRecord
     has_one_attached :image_file
     
 
-    # has_attached_file :avatar
+    has_attached_file :avatar
 
     def image_url
         url_for(self.image_file)
@@ -18,7 +18,7 @@ class Card < ApplicationRecord
     #     self.avatar = URI.parse(url).open
     # end
 
-    # validates_attachment_content_type :avatar, :content_type => ["image/jpg", "image/jpeg", "image/png", "image/gif"]
+    validates_attachment_content_type :avatar, :content_type => ["image/jpg", "image/jpeg", "image/png", "image/gif"]
     
 end
  

@@ -20,7 +20,7 @@ Suit.create([
 ])
 
 # Major Aracana Cards
-
+require 'open-uri'
 
 Card.create(
     name: 'The Fool', 
@@ -32,7 +32,7 @@ Card.create(
      A reversed Fool card can show that you are living in the moment and not planning for the future. The reversed Fool meaning serves as caution that you should be more aware so as not to be taken advantage of. Like the dog in the Rider Waite version, this card is here to alert you on anything that may sound too good to be true.', 
     arcana_id: 1, 
     suit_id: 1
-).image_file.attach(io: File.open('public/assets/seed_images/tarot-chariot-cf4fda1c1182299698d2eda7cec9629f7acae6d066456661057383eb7c6ef07e.jpg'), filename: 'tarot-fool.jpeg')
+).avatar.attach(io: open('https://tarotproject.s3.us-east-2.amazonaws.com/tarot-fool.jpeg'), filename: 'tarot-fool.jpeg')
 
 # Card.create({
 #     name: 'The Magician', 
